@@ -1,0 +1,13 @@
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\bin\Release\CBarcodeApi.dll
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\bin\Release\ImgComp.dll
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\bin\Release\Scan1DSysDriver.dll
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\bin\Release\Scan2DSysDriver.dll
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\bin\Release\Barcode_Demo_WM.exe
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\bin\Release\Barcode_Demo_WM.pdb
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\bin\Release\NBarcodeApi.dll
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\obj\Release\ResolveAssemblyReference.cache
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\obj\Release\Barcode_Demo_WM.Form1.resources
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\obj\Release\Barcode_Demo_WM.Properties.Resources.resources
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\obj\Release\Barcode_Demo_WM.csproj.GenerateResource.Cache
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\obj\Release\Barcode_Demo_WM.exe
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\Barcode_Demo_WM\obj\Release\Barcode_Demo_WM.pdb

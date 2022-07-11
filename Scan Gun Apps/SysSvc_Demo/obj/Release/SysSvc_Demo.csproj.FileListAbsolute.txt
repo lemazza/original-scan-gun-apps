@@ -1,0 +1,10 @@
+D:\Programming\ALH90xx\Release\NetApps\CSysSvcApi.dll
+D:\Programming\ALH90xx\Release\NetApps\SysSvcSysDriver.dll
+D:\Programming\ALH90xx\Release\NetApps\SysSvc_Demo.exe
+D:\Programming\ALH90xx\Release\NetApps\SysSvc_Demo.pdb
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\SysSvc_Demo\obj\Release\ResolveAssemblyReference.cache
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\SysSvc_Demo\obj\Release\SysSvc_Demo.FrmSysSvc.resources
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\SysSvc_Demo\obj\Release\SysSvc_Demo.Properties.Resources.resources
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\SysSvc_Demo\obj\Release\SysSvc_Demo.csproj.GenerateResource.Cache
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\SysSvc_Demo\obj\Release\SysSvc_Demo.exe
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\SysSvc_Demo\obj\Release\SysSvc_Demo.pdb

@@ -1,0 +1,11 @@
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\bin\Release\CSysSvcApi.dll
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\bin\Release\SysSvcSysDriver.dll
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\bin\Release\KeyEventNotifyTest.exe
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\bin\Release\KeyEventNotifyTest.pdb
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\bin\Release\NSysSvcApi.dll
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\obj\Release\ResolveAssemblyReference.cache
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\obj\Release\KeyEventNotifyTest.Form1.resources
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\obj\Release\KeyEventNotifyTest.Properties.Resources.resources
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\obj\Release\KeyEventNotifyTest.csproj.GenerateResource.Cache
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\obj\Release\KeyEventNotifyTest.exe
+D:\Programming\ALH90xx\alien-sdk-WinMB\NetApps\KeyEventNotifyTest\obj\Release\KeyEventNotifyTest.pdb

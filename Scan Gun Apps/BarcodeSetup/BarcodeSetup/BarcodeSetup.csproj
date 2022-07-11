@@ -1,0 +1,368 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37685D7B-69BE-4D57-BCA6-D8D0AFFF3154}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BarcodeSetup</RootNamespace>
+    <AssemblyName>BarcodeSetup</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.2</OSVersion>
+    <DeployDirSuffix>BarcodeSetup</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>Scan1DSetup.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="NBarcodeApi, Version=1.1.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NetLib\NonStrongNamed\NBarcodeApi.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAztec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAztec.Designer.cs">
+      <DependentUpon>frmAztec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCodabar_1D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCodabar_1D.Designer.cs">
+      <DependentUpon>frmCodabar_1D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCodabar_2D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCodabar_2D.Designer.cs">
+      <DependentUpon>frmCodabar_2D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCode11_1D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCode11_1D.Designer.cs">
+      <DependentUpon>frmCode11_1D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCode11_2D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCode11_2D.Designer.cs">
+      <DependentUpon>frmCode11_2D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCode39_1D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCode39_1D.Designer.cs">
+      <DependentUpon>frmCode39_1D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCode39_2D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCode39_2D.Designer.cs">
+      <DependentUpon>frmCode39_2D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCode93.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCode93.Designer.cs">
+      <DependentUpon>frmCode93.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComposite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComposite.Designer.cs">
+      <DependentUpon>frmComposite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEan8_13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEan8_13.Designer.cs">
+      <DependentUpon>frmEan8_13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnableOnly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnableOnly.Designer.cs">
+      <DependentUpon>frmEnableOnly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnableStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnableStatus.Designer.cs">
+      <DependentUpon>frmEnableStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneral.Designer.cs">
+      <DependentUpon>frmGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIT2of5_1D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIT2of5_1D.Designer.cs">
+      <DependentUpon>frmIT2of5_1D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIT2of5_2D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIT2of5_2D.Designer.cs">
+      <DependentUpon>frmIT2of5_2D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMSI_1D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMSI_1D.Designer.cs">
+      <DependentUpon>frmMSI_1D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMSI_2D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMSI_2D.Designer.cs">
+      <DependentUpon>frmMSI_2D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOCR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOCR.Designer.cs">
+      <DependentUpon>frmOCR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPosiCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPosiCode.Designer.cs">
+      <DependentUpon>frmPosiCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPostNet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPostNet.Designer.cs">
+      <DependentUpon>frmPostNet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRSS.Designer.cs">
+      <DependentUpon>frmRSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTelepen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTelepen.Designer.cs">
+      <DependentUpon>frmTelepen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUPCA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUPCA.Designer.cs">
+      <DependentUpon>frmUPCA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUPCE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUPCE.Designer.cs">
+      <DependentUpon>frmUPCE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpcEan_1D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpcEan_1D.Designer.cs">
+      <DependentUpon>frmUpcEan_1D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAztec.resx">
+      <DependentUpon>frmAztec.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCodabar_1D.resx">
+      <DependentUpon>frmCodabar_1D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCodabar_2D.resx">
+      <DependentUpon>frmCodabar_2D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCode11_1D.resx">
+      <DependentUpon>frmCode11_1D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCode11_2D.resx">
+      <DependentUpon>frmCode11_2D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCode39_1D.resx">
+      <DependentUpon>frmCode39_1D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCode39_2D.resx">
+      <DependentUpon>frmCode39_2D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCode93.resx">
+      <DependentUpon>frmCode93.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComposite.resx">
+      <DependentUpon>frmComposite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEan8_13.resx">
+      <DependentUpon>frmEan8_13.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnableOnly.resx">
+      <DependentUpon>frmEnableOnly.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnableStatus.resx">
+      <DependentUpon>frmEnableStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeneral.resx">
+      <DependentUpon>frmGeneral.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIT2of5_1D.resx">
+      <DependentUpon>frmIT2of5_1D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIT2of5_2D.resx">
+      <DependentUpon>frmIT2of5_2D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMSI_1D.resx">
+      <DependentUpon>frmMSI_1D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMSI_2D.resx">
+      <DependentUpon>frmMSI_2D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOCR.resx">
+      <DependentUpon>frmOCR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPosiCode.resx">
+      <DependentUpon>frmPosiCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPostNet.resx">
+      <DependentUpon>frmPostNet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRSS.resx">
+      <DependentUpon>frmRSS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTelepen.resx">
+      <DependentUpon>frmTelepen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUPCA.resx">
+      <DependentUpon>frmUPCA.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUPCE.resx">
+      <DependentUpon>frmUPCE.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpcEan_1D.resx">
+      <DependentUpon>frmUpcEan_1D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UnmanagedAPI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\Dlls\barcode\CBarcodeApi.dll">
+      <Link>CBarcodeApi.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\Dlls\barcode\ImgComp.dll">
+      <Link>ImgComp.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\Dlls\barcode\Scan1DSysDriver.dll">
+      <Link>Scan1DSysDriver.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\Dlls\barcode\Scan2DSysDriver.dll">
+      <Link>Scan2DSysDriver.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scan1DSetup.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

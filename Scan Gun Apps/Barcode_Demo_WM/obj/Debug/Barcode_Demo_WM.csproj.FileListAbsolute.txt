@@ -1,0 +1,13 @@
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\bin\Debug\CBarcodeApi.dll
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\bin\Debug\ImgComp.dll
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\bin\Debug\Scan1DSysDriver.dll
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\bin\Debug\Scan2DSysDriver.dll
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\bin\Debug\Barcode_Demo_WM.exe
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\bin\Debug\Barcode_Demo_WM.pdb
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\bin\Debug\NBarcodeApi.dll
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\obj\Debug\ResolveAssemblyReference.cache
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\obj\Debug\Barcode_Demo_WM.Form1.resources
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\obj\Debug\Barcode_Demo_WM.Properties.Resources.resources
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\obj\Debug\Barcode_Demo_WM.csproj.GenerateResource.Cache
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\obj\Debug\Barcode_Demo_WM.exe
+C:\temp\ALH-901x_sdk-mobile_160223\ALH-901x_sdk-mobile_160223\NetApps\Barcode_Demo_WM\obj\Debug\Barcode_Demo_WM.pdb
